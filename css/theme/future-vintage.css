@@ -91,26 +91,38 @@ body {
  *********************************************/
 
 .reveal .controls div.navigate-left,
+.reveal .controls div.navigate-right
+{
+  border-width: 7px 12px;
+}
+
+.reveal .controls div.navigate-up,
+.reveal .controls div.navigate-down {
+  border-width: 12px 7px;
+}
+
+
+.reveal .controls div.navigate-left,
 .reveal .controls div.navigate-left.enabled {
-  border-right-color: black; 
+  border-right-color: #666; 
   right: 210px;   
 }
 
 .reveal .controls div.navigate-right,
 .reveal .controls div.navigate-right.enabled {
-  border-left-color: black; 
+  border-left-color: #666; 
   left: 210px;
 }
 
 .reveal .controls div.navigate-up,
 .reveal .controls div.navigate-up.enabled {
-  border-bottom-color: black; 
+  border-bottom-color: #666; 
   bottom: 290px;
 }
 
 .reveal .controls div.navigate-down,
 .reveal .controls div.navigate-down.enabled {
-  border-top-color: black; 
+  border-top-color: #666; 
   top: 290px;
 }
 
